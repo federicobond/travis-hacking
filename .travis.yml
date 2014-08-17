@@ -1,2 +1,4 @@
 language: ruby
-script: ./variables.sh
+script:
+  - ./variables.sh
+  - ./file-changes.sh
